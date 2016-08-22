@@ -14,6 +14,8 @@
 		8C0ED84D1D68CABE00113633 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C0ED84B1D68CABE00113633 /* LaunchScreen.storyboard */; };
 		8C1542E01D6A3CFB00277F41 /* ButtonExtender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C1542DF1D6A3CFB00277F41 /* ButtonExtender.swift */; };
 		8C2AB6161D6A083800A19D46 /* images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C2AB6151D6A083800A19D46 /* images.xcassets */; };
+		8C326F5B1D6A77E7003C8FCF /* QuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C326F5A1D6A77E7003C8FCF /* QuizModel.swift */; };
+		8C326F5D1D6A815F003C8FCF /* ExtraFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C326F5C1D6A815F003C8FCF /* ExtraFunctions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		8C0ED84E1D68CABE00113633 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C1542DF1D6A3CFB00277F41 /* ButtonExtender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonExtender.swift; sourceTree = "<group>"; };
 		8C2AB6151D6A083800A19D46 /* images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = images.xcassets; sourceTree = "<group>"; };
+		8C326F5A1D6A77E7003C8FCF /* QuizModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizModel.swift; sourceTree = "<group>"; };
+		8C326F5C1D6A815F003C8FCF /* ExtraFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtraFunctions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +69,9 @@
 				8C0ED84E1D68CABE00113633 /* Info.plist */,
 				8C0ED8491D68CABE00113633 /* Assets.xcassets */,
 				8C2AB6151D6A083800A19D46 /* images.xcassets */,
+				8C326F5C1D6A815F003C8FCF /* ExtraFunctions.swift */,
 				8C1542DF1D6A3CFB00277F41 /* ButtonExtender.swift */,
+				8C326F5A1D6A77E7003C8FCF /* QuizModel.swift */,
 			);
 			path = QuizOlimpiada;
 			sourceTree = "<group>";
@@ -142,8 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C326F5B1D6A77E7003C8FCF /* QuizModel.swift in Sources */,
 				8C0ED8451D68CABE00113633 /* ViewController.swift in Sources */,
 				8C0ED8431D68CABE00113633 /* AppDelegate.swift in Sources */,
+				8C326F5D1D6A815F003C8FCF /* ExtraFunctions.swift in Sources */,
 				8C1542E01D6A3CFB00277F41 /* ButtonExtender.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
